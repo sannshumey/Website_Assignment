@@ -1,0 +1,18 @@
+* {
+    background-color: #fde0e5;
+    width: 202px;
+    height: 300px;
+}
+
+.images {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.image {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    margin-top: 9px;
+}

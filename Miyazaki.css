@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7f2;
+  color: #2f3e2f;
+  line-height: 1.6;
+}
+
+/* Hero */
+.hero {
+  height: 70vh;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+              url("https://i.pinimg.com/1200x/83/45/c0/8345c03471d3e5515aca19e71ee33468.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 60px;
+}
+
+.hero-text {
+  max-width: 500px;
+  color: #fff;
+}
+
+.hero-text h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+}
+
+.hero-text p {
+  margin-top: 15px;
+}
+
+/* Sections */
+.section {
+  padding: 80px 60px;
+}
+
+.section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.section p {
+  max-width: 800px;
+  margin-bottom: 15px;
+}
+
+.soft-bg {
+  background-color: #eaf3ec;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,66 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+}
+
+/* Page background */
+body {
+    background-color: #fde0e5;
+    color: #3b3b3b;
+}
+
+/* About section */
+.about {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* Content box */
+.about-container {
+    background: #ffffff;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+.about-container h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color: #5c7a63;
+}
+
+/* Shop name */
+.shop-name {
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    color: #8aa899;
+    font-style: italic;
+    font-family: 'AKbalthom KhmerHand';
+    font-weight: 600;
+}
+
+/* Paragraphs */
+.about-container p {
+    font-size: 1.7rem;
+    line-height: 1.7;
+    margin-bottom: 18px;
+    font-family: 'Gabriola';
+}
+
+/* Thank you text */
+.thank-you {
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    color: #5c7a63;
+}
