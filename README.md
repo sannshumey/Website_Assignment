@@ -46,11 +46,40 @@ Custom CSS is used to style cards, hero sections, quotes, and buttons for a cozy
 
 📂 Project Structure
 
-├── index.html      # Main homepage
-├── index.css       # Styling and theme
-├── index.js        # Auto slider logic
-├── Logo.png        # Website logo
-└── README.md       # Project documentation
+Childhood-Shop/
+│
+├── index.html              # Homepage
+├── README.md               # Project description
+│
+├── assets/
+│   ├── images/             # Images & GIFs
+│   │   ├── logo.png
+│   │   ├── hero-bg.jpg
+│   │   ├── products/
+│   │   │   ├── totoro.jpg
+│   │   │   ├── ponyo.jpg
+│   │   │   └── howl.jpg
+│   │   └── giphy.gif
+│   │
+│   ├── css/
+│   │   └── style.css       # All CSS styles
+│   │
+│   └── js/
+│       └── main.js         # JavaScript (slider, animation)
+│
+├── pages/                  # Other website pages
+│   ├── about.html
+│   ├── contact.html
+│   ├── payment.html
+│   ├── ghibli.html
+│   ├── miyazaki.html
+│   ├── totoro.html
+│   ├── ponyo.html
+│   └── moving-castle.html
+│
+└── fonts/                  # (Optional) custom fonts
+    ├── AKbalthom.ttf
+    └── ASvadek.ttf
 
 ⚙️ Features
 
